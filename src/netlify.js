@@ -116,7 +116,3 @@ class Authenticator {
 }
 
 export default Authenticator;
-
-if (typeof window !== "undefined") {
-    window.netlify
-}

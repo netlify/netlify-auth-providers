@@ -2,9 +2,9 @@
   "name": "netlify-auth-providers",
   "version": "1.0.0-alpha1",
   "description": "Netlify Auth via Providers",
-  "main": "lib/index.js",
+  "main": "lib/netlify.js",
   "scripts": {
-    "compile": "babel --presets es2015 --plugins syntax-object-rest-spread,transform-object-rest-spread -d lib/ src/",
+    "compile": "babel --presets es2015 --plugins syntax-object-rest-spread,transform-object-rest-spread,transform-es2015-modules-umd -d lib/ src/",
     "prepublish": "npm run compile",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
