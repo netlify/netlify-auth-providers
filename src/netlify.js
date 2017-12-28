@@ -84,7 +84,7 @@ class Authenticator {
     }
     if (!siteID) {
       return cb(new NetlifyError({
-        message: "You must set a site_id with netlify.configure({site_id: \"your-site-id\"}) to make authentication work from localhost"
+        message: "You must set a site_id with new netlify({site_id: \"your-site-id\"}) to make authentication work from localhost"
       }));
     }
 
