@@ -12,6 +12,10 @@
   "keywords": [
     "netlify"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/netlify/netlify-auth-providers.git"
+  },
   "devDependencies": {
     "babel-cli": "^6.8.0",
     "babel-plugin-syntax-object-rest-spread": "^6.8.0",
