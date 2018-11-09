@@ -1,6 +1,6 @@
 # netlify-auth-providers
 
-A JavaScript library to use Netlify's OAuth providers, it relies on a popup which may cause issues with popup blockers e.g. in Firefox.
+A JavaScript library to use Netlify's OAuth providers, it relies on a popup (which may cause issues on mobile or with popup blockers e.g. in Firefox).
 
 For a "popup-less" alternative that uses a widget overlay and offers multiple authentication options, try [`netlify-identity-widget`](https://github.com/netlify/netlify-identity-widget) instead.
 
